@@ -4,11 +4,14 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+}
 
 body {
-    position: relative;
-    background-color: black;
-    overflow: hidden;
+    height: 100%;
+    display: flex;
+
 }
 
 .bubble {
@@ -19,5 +22,17 @@ body {
     border-radius: 50%;
     border-bottom: 10px solid rgba(255, 255, 255, 0.7);
 
+}
+
+
+.container {
+    background-color: white;
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    
+
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(59, 26, 26);
 }
 
